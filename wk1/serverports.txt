@@ -1,0 +1,25 @@
+1. What is the definition of server ports?
+
+A server port is a virtual point where network connections start and end. They are software-based and managed by a computer's operating system. Each port is associated with a specific process or service. It allows computers to differentiate between different kinds of traffic.
+
+2. What is server port range?
+
+The range of ports is from 0 to 65535. Only port numbers 0 to 1023 are reserved for privileged services and designated as well-known ports. 
+
+3. How many bits does number above represent?
+16-bits
+
+4. State 10 common server ports
+
+Here are the common ports associated with the protocols: 
+
+Port Number	Protocol
+20, 21		FTP
+22		SSH
+25		SMTP
+53		DNS
+80		HTTP
+110		POP3
+143		IMAP
+443		HTTPS
+
