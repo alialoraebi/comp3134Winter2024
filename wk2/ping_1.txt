@@ -1,0 +1,11 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# ping apple.com
+PING apple.com (17.253.144.10) 56(84) bytes of data.
+^C
+--- apple.com ping statistics ---
+26 packets transmitted, 0 received, 100% packet loss, time 25601ms
+
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# ping apple.com -w 100
+PING apple.com (17.253.144.10) 56(84) bytes of data.
+^C
+--- apple.com ping statistics ---
+6 packets transmitted, 0 received, 100% packet loss, time 5107ms
