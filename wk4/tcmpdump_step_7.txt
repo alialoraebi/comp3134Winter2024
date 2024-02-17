@@ -1,0 +1,319 @@
+(base) ali@Alis-Air wk4 % tcpdump -r 0001.pcap       
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+16:30:10.743876 IP dragon.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? _oculusal_sp._tcp.local. (41)
+16:30:10.744201 IP dragon.mdns > mdns.mcast.net.mdns: 0*- [0q] 1/0/4 PTR Ali's PC::Dragon._oculusal_sp._tcp.local. (245)
+16:30:10.744328 IP dragon.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? _oculusal_sp_v2._tcp.local. (44)
+16:30:10.744949 IP dragon.mdns > mdns.mcast.net.mdns: 0*- [0q] 1/0/4 PTR Ali's PC::Dragon._oculusal_sp_v2._tcp.local. (254)
+16:30:10.853187 IP alis-air.61131 > 162.159.130.234.https: Flags [P.], seq 3384767762:3384767816, ack 3967730591, win 8272, options [nop,nop,TS val 3649676444 ecr 2535192863], length 54
+16:30:10.920915 IP 162.159.130.234.https > alis-air.61131: Flags [.], ack 54, win 8, options [nop,nop,TS val 2535193374 ecr 3649676444], length 0
+16:30:10.922138 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 1:35, ack 54, win 8, options [nop,nop,TS val 2535193376 ecr 3649676444], length 34
+16:30:10.922257 IP alis-air.61131 > 162.159.130.234.https: Flags [.], ack 35, win 8271, options [nop,nop,TS val 3649676513 ecr 2535193376], length 0
+16:30:11.154003 IP samsung.49119 > 192.168.2.255.15600: UDP, length 35
+16:30:11.477887 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 35:158, ack 54, win 8, options [nop,nop,TS val 2535193933 ecr 3649676513], length 123
+16:30:11.478135 IP alis-air.61131 > 162.159.130.234.https: Flags [.], ack 158, win 8272, options [nop,nop,TS val 3649677069 ecr 2535193933], length 0
+16:30:11.494707 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 158:201, ack 54, win 8, options [nop,nop,TS val 2535193948 ecr 3649677069], length 43
+16:30:11.494889 IP alis-air.61131 > 162.159.130.234.https: Flags [.], ack 201, win 8272, options [nop,nop,TS val 3649677085 ecr 2535193948], length 0
+16:30:12.519251 IP yyz10s17-in-f10.1e100.net.https > alis-air.51801: quic, protected
+16:30:12.521606 IP alis-air.51801 > yyz10s17-in-f10.1e100.net.https: quic, protected
+16:30:12.601824 IP alis-air.61125 > google-nest-mini.8009: Flags [P.], seq 2555305029:2555305139, ack 3768248073, win 2048, options [nop,nop,TS val 1841049691 ecr 3316396386], length 110
+16:30:12.626173 IP google-nest-mini.8009 > alis-air.61125: Flags [P.], seq 1:111, ack 110, win 503, options [nop,nop,TS val 3316401493 ecr 1841049691], length 110
+16:30:12.626377 IP alis-air.61125 > google-nest-mini.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 1841049715 ecr 3316401493], length 0
+16:30:12.689639 IP dragon.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? _oculusal_sp._tcp.local. (41)
+16:30:12.689640 IP dragon.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? _oculusal_sp_v2._tcp.local. (44)
+16:30:12.689682 IP dragon.mdns > mdns.mcast.net.mdns: 0*- [0q] 1/0/4 PTR Ali's PC::Dragon._oculusal_sp._tcp.local. (245)
+16:30:12.690831 IP dragon.mdns > mdns.mcast.net.mdns: 0*- [0q] 1/0/4 PTR Ali's PC::Dragon._oculusal_sp_v2._tcp.local. (254)
+16:30:12.827537 IP alis-air.61128 > google-home-mini.8009: Flags [P.], seq 2488563474:2488563584, ack 1324496501, win 2048, options [nop,nop,TS val 1973253781 ecr 5075047], length 110
+16:30:12.870433 IP google-home-mini.8009 > alis-air.61128: Flags [P.], seq 1:111, ack 110, win 278, options [nop,nop,TS val 5075549 ecr 1973253781], length 110
+16:30:12.870615 IP alis-air.61128 > google-home-mini.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 1973253824 ecr 5075549], length 0
+16:30:13.099217 IP 7c:f6:66:f5:a4:43.52024 > broadcasthost.6667: UDP, length 172
+16:30:13.303447 IP samsung.40898 > 192.168.2.255.15600: UDP, length 35
+16:30:13.631758 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 201:301, ack 54, win 8, options [nop,nop,TS val 2535196061 ecr 3649677085], length 100
+16:30:13.632068 IP alis-air.61131 > 162.159.130.234.https: Flags [.], ack 301, win 8272, options [nop,nop,TS val 3649679223 ecr 2535196061], length 0
+16:30:14.200287 IP alis-air.61403 > 52.226.139.185.https: Flags [.], ack 3104087176, win 4096, length 0
+16:30:14.236840 IP 52.226.139.185.https > alis-air.61403: Flags [.], ack 1, win 7970, length 0
+16:30:14.742589 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 301:397, ack 54, win 8, options [nop,nop,TS val 2535196948 ecr 3649679223], length 96
+16:30:14.742591 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 397:485, ack 54, win 8, options [nop,nop,TS val 2535197018 ecr 3649679223], length 88
+16:30:14.742592 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 397:485, ack 54, win 8, options [nop,nop,TS val 2535197093 ecr 3649679223], length 88
+16:30:14.742800 IP alis-air.61131 > 162.159.130.234.https: Flags [.], ack 485, win 8269, options [nop,nop,TS val 3649680334 ecr 2535197018,nop,nop,sack 1 {397:485}], length 0
+16:30:14.839649 ARP, Request who-has mynetwork.home tell samsung, length 46
+16:30:15.068351 IP 17.248.210.64.https > alis-air.61465: Flags [P.], seq 483716167:483716206, ack 3276351309, win 501, options [nop,nop,TS val 2494654181 ecr 3628288693], length 39
+16:30:15.068354 IP 17.248.210.64.https > alis-air.61465: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 2494654182 ecr 3628288693], length 24
+16:30:15.068355 IP 17.248.210.64.https > alis-air.61465: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 2494654182 ecr 3628288693], length 0
+16:30:15.068356 IP 17.248.210.64.https > alis-air.61465: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 2494654235 ecr 3628288693], length 0
+16:30:15.068587 IP alis-air.61465 > 17.248.210.64.https: Flags [.], ack 63, win 68, options [nop,nop,TS val 3628318923 ecr 2494654182], length 0
+16:30:15.068707 IP alis-air.61465 > 17.248.210.64.https: Flags [.], ack 64, win 68, options [nop,nop,TS val 3628318923 ecr 2494654182], length 0
+16:30:15.068748 IP alis-air.61465 > 17.248.210.64.https: Flags [.], ack 64, win 68, options [nop,nop,TS val 3628318923 ecr 2494654182], length 0
+16:30:15.069346 IP alis-air.61465 > 17.248.210.64.https: Flags [P.], seq 1:40, ack 64, win 68, options [nop,nop,TS val 3628318923 ecr 2494654182], length 39
+16:30:15.069815 IP alis-air.61465 > 17.248.210.64.https: Flags [P.], seq 40:64, ack 64, win 68, options [nop,nop,TS val 3628318924 ecr 2494654182], length 24
+16:30:15.070746 IP alis-air.61465 > 17.248.210.64.https: Flags [F.], seq 64, ack 64, win 68, options [nop,nop,TS val 3628318926 ecr 2494654182], length 0
+16:30:15.091798 IP 17.248.210.64.https > alis-air.61465: Flags [R.], seq 64, ack 40, win 501, options [nop,nop,TS val 2494654403 ecr 3628318923], length 0
+16:30:15.091801 IP 17.248.210.64.https > alis-air.61465: Flags [.], ack 40, win 501, options [nop,nop,TS val 2494654403 ecr 3628318923], length 0
+16:30:15.091849 IP 17.248.210.64.https > alis-air.61465: Flags [R], seq 483716231, win 0, length 0
+16:30:15.091850 IP 17.248.210.64.https > alis-air.61465: Flags [R], seq 483716231, win 0, length 0
+16:30:15.092056 IP alis-air.61465 > 17.248.210.64.https: Flags [R], seq 3276351348, win 0, length 0
+16:30:15.396219 IP alis-air.61124 > 20.127.250.238.https: Flags [.], ack 3387383352, win 2048, length 0
+16:30:15.419581 IP 20.127.250.238.https > alis-air.61124: Flags [.], ack 1, win 59, options [nop,nop,TS val 1554077620 ecr 2644332995], length 0
+16:30:16.683042 IP dragon.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? _oculusal_sp._tcp.local. (41)
+16:30:16.683046 IP dragon.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? _oculusal_sp_v2._tcp.local. (44)
+16:30:16.683403 IP dragon.mdns > mdns.mcast.net.mdns: 0*- [0q] 1/0/4 PTR Ali's PC::Dragon._oculusal_sp._tcp.local. (245)
+16:30:16.683915 IP dragon.mdns > mdns.mcast.net.mdns: 0*- [0q] 1/0/4 PTR Ali's PC::Dragon._oculusal_sp_v2._tcp.local. (254)
+16:30:16.713604 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 485:535, ack 54, win 8, options [nop,nop,TS val 2535198960 ecr 3649680334], length 50
+16:30:16.713744 IP alis-air.61131 > 162.159.130.234.https: Flags [.], ack 535, win 8271, options [nop,nop,TS val 3649682304 ecr 2535198960], length 0
+16:30:16.785745 ARP, Request who-has mynetwork.home tell samsung, length 46
+16:30:16.868525 IP alis-air.56611 > mynetwork.home.domain: 8072+ [1au] A? captive.apple.com. (46)
+16:30:16.868533 IP alis-air.60257 > mynetwork.home.domain: 39384+ [1au] AAAA? captive.apple.com. (46)
+16:30:16.876890 IP mynetwork.home.domain > alis-air.56611: 8072 5/0/1 CNAME captive-cidr.origin-apple.com.akadns.net., CNAME captive-cdn.origin-apple.com.akadns.net., CNAME captive.g.aaplimg.com., A 17.253.3.200, A 17.253.3.202 (190)
+16:30:16.876892 IP mynetwork.home.domain > alis-air.60257: 39384 5/0/1 CNAME captive-cidr.origin-apple.com.akadns.net., CNAME captive-cdn.origin-apple.com.akadns.net., CNAME captive.g.aaplimg.com., AAAA 2620:149:a33:f000::199, AAAA 2620:149:a33:f100::200 (214)
+16:30:16.877284 IP alis-air.61472 > usnyc3-vip-bx-003.b.aaplimg.com.http: Flags [S], seq 3881255979, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1996477774 ecr 0,sackOK,eol], length 0
+16:30:16.901208 IP usnyc3-vip-bx-003.b.aaplimg.com.http > alis-air.61472: Flags [S.], seq 3105659473, ack 3881255980, win 64980, options [mss 1452,sackOK,TS val 4228937299 ecr 1996477774,nop,wscale 8], length 0
+16:30:16.901354 IP alis-air.61472 > usnyc3-vip-bx-003.b.aaplimg.com.http: Flags [.], ack 1, win 2070, options [nop,nop,TS val 1996477798 ecr 4228937299], length 0
+16:30:16.901458 IP alis-air.61472 > usnyc3-vip-bx-003.b.aaplimg.com.http: Flags [P.], seq 1:118, ack 1, win 2070, options [nop,nop,TS val 1996477798 ecr 4228937299], length 117: HTTP: GET / HTTP/1.1
+16:30:16.939314 IP usnyc3-vip-bx-003.b.aaplimg.com.http > alis-air.61472: Flags [.], ack 118, win 254, options [nop,nop,TS val 4228937323 ecr 1996477798], length 0
+16:30:16.939315 IP usnyc3-vip-bx-003.b.aaplimg.com.http > alis-air.61472: Flags [P.], seq 1:516, ack 118, win 254, options [nop,nop,TS val 4228937323 ecr 1996477798], length 515: HTTP: HTTP/1.1 200 OK
+16:30:16.939316 IP usnyc3-vip-bx-003.b.aaplimg.com.http > alis-air.61472: Flags [F.], seq 516, ack 118, win 254, options [nop,nop,TS val 4228937323 ecr 1996477798], length 0
+16:30:16.939419 IP alis-air.61472 > usnyc3-vip-bx-003.b.aaplimg.com.http: Flags [.], ack 516, win 2061, options [nop,nop,TS val 1996477836 ecr 4228937323], length 0
+16:30:16.939467 IP alis-air.61472 > usnyc3-vip-bx-003.b.aaplimg.com.http: Flags [.], ack 517, win 2061, options [nop,nop,TS val 1996477836 ecr 4228937323], length 0
+16:30:16.939555 IP alis-air.61472 > usnyc3-vip-bx-003.b.aaplimg.com.http: Flags [F.], seq 118, ack 517, win 2061, options [nop,nop,TS val 1996477836 ecr 4228937323], length 0
+16:30:17.033224 IP usnyc3-vip-bx-003.b.aaplimg.com.http > alis-air.61472: Flags [.], ack 119, win 254, options [nop,nop,TS val 4228937361 ecr 1996477836], length 0
+16:30:17.631170 IP alis-air.61125 > google-nest-mini.8009: Flags [P.], seq 110:220, ack 111, win 2048, options [nop,nop,TS val 1841054720 ecr 3316401493], length 110
+16:30:17.689225 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 535:636, ack 54, win 8, options [nop,nop,TS val 2535199870 ecr 3649682304], length 101
+16:30:17.689485 IP alis-air.61131 > 162.159.130.234.https: Flags [.], ack 636, win 8272, options [nop,nop,TS val 3649683280 ecr 2535199870], length 0
+16:30:17.690238 IP google-nest-mini.8009 > alis-air.61125: Flags [P.], seq 111:221, ack 220, win 503, options [nop,nop,TS val 3316406571 ecr 1841054720], length 110
+16:30:17.690327 IP alis-air.61125 > google-nest-mini.8009: Flags [.], ack 221, win 2046, options [nop,nop,TS val 1841054778 ecr 3316406571], length 0
+16:30:17.876211 IP alis-air.61128 > google-home-mini.8009: Flags [P.], seq 110:220, ack 111, win 2048, options [nop,nop,TS val 1973258830 ecr 5075549], length 110
+16:30:17.879398 IP google-home-mini.8009 > alis-air.61128: Flags [P.], seq 111:221, ack 220, win 278, options [nop,nop,TS val 5076053 ecr 1973258830], length 110
+16:30:17.879562 IP alis-air.61128 > google-home-mini.8009: Flags [.], ack 221, win 2046, options [nop,nop,TS val 1973258833 ecr 5076053], length 0
+16:30:18.117009 IP 7c:f6:66:f5:a4:43.52024 > broadcasthost.6667: UDP, length 172
+16:30:18.833798 ARP, Request who-has mynetwork.home tell samsung, length 46
+16:30:18.882488 IP alis-air.54593 > a172-224-186-9.source.akaquill.net.https: quic, protected
+16:30:18.888085 IP a172-224-186-9.source.akaquill.net.https > alis-air.54593: quic, protected
+16:30:18.893850 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 636:1155, ack 54, win 8, options [nop,nop,TS val 2535201349 ecr 3649683280], length 519
+16:30:18.894077 IP alis-air.61131 > 162.159.130.234.https: Flags [.], ack 1155, win 8272, options [nop,nop,TS val 3649684485 ecr 2535201349], length 0
+16:30:19.130464 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 1155:1236, ack 54, win 8, options [nop,nop,TS val 2535201585 ecr 3649684485], length 81
+16:30:19.130734 IP alis-air.61131 > 162.159.130.234.https: Flags [.], ack 1236, win 8272, options [nop,nop,TS val 3649684721 ecr 2535201585], length 0
+16:30:19.261071 ARP, Request who-has alis-air tell mynetwork.home, length 38
+16:30:19.261179 ARP, Reply alis-air is-at cc:08:fa:6c:0f:ac (oui Unknown), length 28
+16:30:20.149176 IP alis-air.61473 > 17.248.207.69.https: Flags [S], seq 3739377933, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 3710638060 ecr 0,sackOK,eol], length 0
+16:30:20.309918 IP 17.248.207.69.https > alis-air.61473: Flags [S.], seq 4251835151, ack 3739377934, win 65160, options [mss 1452,sackOK,TS val 407227548 ecr 3710638060,nop,wscale 7], length 0
+16:30:20.310217 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 1, win 2070, options [nop,nop,TS val 3710638222 ecr 407227548], length 0
+16:30:20.311164 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 1:518, ack 1, win 2070, options [nop,nop,TS val 3710638223 ecr 407227548], length 517
+16:30:20.344437 IP 17.248.207.69.https > alis-air.61473: Flags [.], ack 518, win 506, options [nop,nop,TS val 407227683 ecr 3710638223], length 0
+16:30:20.344439 IP 17.248.207.69.https > alis-air.61473: Flags [.], seq 1:1441, ack 518, win 506, options [nop,nop,TS val 407227683 ecr 3710638223], length 1440
+16:30:20.344440 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 2881:4097, ack 518, win 506, options [nop,nop,TS val 407227683 ecr 3710638223], length 1216
+16:30:20.344442 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 1441:2881, ack 518, win 506, options [nop,nop,TS val 407227683 ecr 3710638223], length 1440
+16:30:20.344444 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 5537:6017, ack 518, win 506, options [nop,nop,TS val 407227683 ecr 3710638223], length 480
+16:30:20.344445 IP 17.248.207.69.https > alis-air.61473: Flags [.], seq 4097:5537, ack 518, win 506, options [nop,nop,TS val 407227683 ecr 3710638223], length 1440
+16:30:20.344593 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 1441, win 2047, options [nop,nop,TS val 3710638256 ecr 407227683], length 0
+16:30:20.344646 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 1441, win 2047, options [nop,nop,TS val 3710638256 ecr 407227683,nop,nop,sack 1 {2881:4097}], length 0
+16:30:20.344677 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 4097, win 2006, options [nop,nop,TS val 3710638256 ecr 407227683], length 0
+16:30:20.344698 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 4097, win 2006, options [nop,nop,TS val 3710638256 ecr 407227683,nop,nop,sack 1 {5537:6017}], length 0
+16:30:20.344725 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 6017, win 1976, options [nop,nop,TS val 3710638256 ecr 407227683], length 0
+16:30:20.345169 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 6017, win 2048, options [nop,nop,TS val 3710638256 ecr 407227683], length 0
+16:30:20.356780 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 518:582, ack 6017, win 2048, options [nop,nop,TS val 3710638269 ecr 407227683], length 64
+16:30:20.369735 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 582:1880, ack 6017, win 2048, options [nop,nop,TS val 3710638281 ecr 407227683], length 1298
+16:30:20.370129 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 1880:2490, ack 6017, win 2048, options [nop,nop,TS val 3710638281 ecr 407227683], length 610
+16:30:20.370269 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 2490:2521, ack 6017, win 2048, options [nop,nop,TS val 3710638281 ecr 407227683], length 31
+16:30:20.377589 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 6017:6288, ack 582, win 506, options [nop,nop,TS val 407227728 ecr 3710638269], length 271
+16:30:20.377591 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 6288:6559, ack 582, win 506, options [nop,nop,TS val 407227728 ecr 3710638269], length 271
+16:30:20.377593 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 6559:6621, ack 582, win 506, options [nop,nop,TS val 407227728 ecr 3710638269], length 62
+16:30:20.377594 IP 17.248.207.69.https > alis-air.61473: Flags [.], ack 582, win 506, options [nop,nop,TS val 407227728 ecr 3710638269], length 0
+16:30:20.377729 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 6621, win 2038, options [nop,nop,TS val 3710638289 ecr 407227728], length 0
+16:30:20.377776 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 6621, win 2038, options [nop,nop,TS val 3710638289 ecr 407227728], length 0
+16:30:20.378075 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 2521:2552, ack 6621, win 2048, options [nop,nop,TS val 3710638289 ecr 407227728], length 31
+16:30:20.388563 IP 17.248.207.69.https > alis-air.61473: Flags [.], ack 1880, win 501, options [nop,nop,TS val 407227741 ecr 3710638281], length 0
+16:30:20.388564 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 6621:6652, ack 1880, win 501, options [nop,nop,TS val 407227741 ecr 3710638281], length 31
+16:30:20.388641 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 6652, win 2047, options [nop,nop,TS val 3710638300 ecr 407227741], length 0
+16:30:20.389725 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 6652:6687, ack 2490, win 501, options [nop,nop,TS val 407227741 ecr 3710638281], length 35
+16:30:20.390138 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 6687, win 2047, options [nop,nop,TS val 3710638302 ecr 407227741], length 0
+16:30:20.396930 IP 17.248.207.69.https > alis-air.61473: Flags [.], ack 2552, win 501, options [nop,nop,TS val 407227750 ecr 3710638281], length 0
+16:30:20.522226 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 6687:7283, ack 2552, win 501, options [nop,nop,TS val 407227874 ecr 3710638302], length 596
+16:30:20.522229 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 7283:7314, ack 2552, win 501, options [nop,nop,TS val 407227874 ecr 3710638302], length 31
+16:30:20.522420 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 7314, win 2038, options [nop,nop,TS val 3710638434 ecr 407227874], length 0
+16:30:20.553183 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 2552:2670, ack 7314, win 2048, options [nop,nop,TS val 3710638465 ecr 407227874], length 118
+16:30:20.553591 IP alis-air.61473 > 17.248.207.69.https: Flags [.], seq 2670:4110, ack 7314, win 2048, options [nop,nop,TS val 3710638465 ecr 407227874], length 1440
+16:30:20.553620 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 4110:4509, ack 7314, win 2048, options [nop,nop,TS val 3710638465 ecr 407227874], length 399
+16:30:20.553742 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 4509:4540, ack 7314, win 2048, options [nop,nop,TS val 3710638465 ecr 407227874], length 31
+16:30:20.593865 IP 17.248.207.69.https > alis-air.61473: Flags [.], ack 4110, win 501, options [nop,nop,TS val 407227926 ecr 3710638465], length 0
+16:30:20.593867 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 7314:7349, ack 4509, win 501, options [nop,nop,TS val 407227926 ecr 3710638465], length 35
+16:30:20.593959 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 7349, win 2047, options [nop,nop,TS val 3710638506 ecr 407227926], length 0
+16:30:20.612831 IP 17.248.207.69.https > alis-air.61473: Flags [.], ack 4540, win 501, options [nop,nop,TS val 407227965 ecr 3710638465], length 0
+16:30:21.034715 IP 17.248.207.69.https > alis-air.61473: Flags [.], seq 7349:8789, ack 4540, win 501, options [nop,nop,TS val 407228385 ecr 3710638465], length 1440
+16:30:21.034717 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 8789:9098, ack 4540, win 501, options [nop,nop,TS val 407228385 ecr 3710638465], length 309
+16:30:21.034930 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 9098, win 2020, options [nop,nop,TS val 3710638947 ecr 407228385], length 0
+16:30:21.062542 IP 17.57.144.244.5223 > alis-air.59887: Flags [P.], seq 3638350174:3638350495, ack 500728174, win 2626, options [nop,nop,TS val 2555743215 ecr 3252675442], length 321
+16:30:21.062715 IP alis-air.59887 > 17.57.144.244.5223: Flags [.], ack 321, win 2042, options [nop,nop,TS val 3252696611 ecr 2555743215], length 0
+16:30:21.065155 IP alis-air.59887 > 17.57.144.244.5223: Flags [P.], seq 1:33, ack 321, win 2048, options [nop,nop,TS val 3252696614 ecr 2555743215], length 32
+16:30:21.084918 IP 17.57.144.244.5223 > alis-air.59887: Flags [.], ack 33, win 2626, options [nop,nop,TS val 2555743238 ecr 3252696614], length 0
+16:30:21.093462 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 4540:4704, ack 9098, win 2048, options [nop,nop,TS val 3710639005 ecr 407228385], length 164
+16:30:21.094007 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 4704:5492, ack 9098, win 2048, options [nop,nop,TS val 3710639005 ecr 407228385], length 788
+16:30:21.094163 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 5492:5523, ack 9098, win 2048, options [nop,nop,TS val 3710639006 ecr 407228385], length 31
+16:30:21.173216 IP 17.248.207.69.https > alis-air.61473: Flags [.], ack 5523, win 501, options [nop,nop,TS val 407228465 ecr 3710639005], length 0
+16:30:21.357580 IP 17.248.207.69.https > alis-air.61473: Flags [.], seq 9098:10538, ack 5523, win 501, options [nop,nop,TS val 407228626 ecr 3710639005], length 1440
+16:30:21.357790 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 10538, win 2025, options [nop,nop,TS val 3710639269 ecr 407228626], length 0
+16:30:21.359034 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 10538:11978, ack 5523, win 501, options [nop,nop,TS val 407228626 ecr 3710639005], length 1440
+16:30:21.359036 IP 17.248.207.69.https > alis-air.61473: Flags [.], seq 11978:13418, ack 5523, win 501, options [nop,nop,TS val 407228629 ecr 3710639005], length 1440
+16:30:21.359038 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 13418:14858, ack 5523, win 501, options [nop,nop,TS val 407228629 ecr 3710639005], length 1440
+16:30:21.359040 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 14858:15630, ack 5523, win 501, options [nop,nop,TS val 407228633 ecr 3710639005], length 772
+16:30:21.359138 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 15630, win 1968, options [nop,nop,TS val 3710639271 ecr 407228633], length 0
+16:30:21.359251 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 15630, win 2048, options [nop,nop,TS val 3710639271 ecr 407228633], length 0
+16:30:21.518868 IP alis-air.50181 > mynetwork.home.domain: 28824+ A? me.apple-dns.net. (34)
+16:30:21.533471 IP mynetwork.home.domain > alis-air.50181: 28824 4/4/0 A 17.248.199.128, A 17.248.199.132, A 17.248.199.129, A 17.248.199.130 (235)
+16:30:21.535601 IP alis-air.61474 > 17.248.199.128.https: Flags [S], seq 2789954903, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 2627791552 ecr 0,sackOK,eol], length 0
+16:30:21.543472 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 5523:5655, ack 15630, win 2048, options [nop,nop,TS val 3710639455 ecr 407228633], length 132
+16:30:21.543827 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 5655:6442, ack 15630, win 2048, options [nop,nop,TS val 3710639455 ecr 407228633], length 787
+16:30:21.543972 IP alis-air.61473 > 17.248.207.69.https: Flags [P.], seq 6442:6473, ack 15630, win 2048, options [nop,nop,TS val 3710639455 ecr 407228633], length 31
+16:30:21.563799 IP 17.248.207.69.https > alis-air.61473: Flags [.], ack 6473, win 501, options [nop,nop,TS val 407228916 ecr 3710639455], length 0
+16:30:21.567814 IP 17.248.199.128.https > alis-air.61474: Flags [S.], seq 3445179198, ack 2789954904, win 65160, options [mss 1452,sackOK,TS val 3738754363 ecr 2627791552,nop,wscale 7], length 0
+16:30:21.568047 IP alis-air.61474 > 17.248.199.128.https: Flags [.], ack 1, win 2070, options [nop,nop,TS val 2627791585 ecr 3738754363], length 0
+16:30:21.568619 IP alis-air.61474 > 17.248.199.128.https: Flags [P.], seq 1:518, ack 1, win 2070, options [nop,nop,TS val 2627791585 ecr 3738754363], length 517
+16:30:21.600574 IP 17.248.199.128.https > alis-air.61474: Flags [.], ack 518, win 506, options [nop,nop,TS val 3738754395 ecr 2627791585], length 0
+16:30:21.600577 IP 17.248.199.128.https > alis-air.61474: Flags [P.], seq 1441:2881, ack 518, win 506, options [nop,nop,TS val 3738754395 ecr 2627791585], length 1440
+16:30:21.600579 IP 17.248.199.128.https > alis-air.61474: Flags [.], seq 1:1441, ack 518, win 506, options [nop,nop,TS val 3738754395 ecr 2627791585], length 1440
+16:30:21.600785 IP alis-air.61474 > 17.248.199.128.https: Flags [.], ack 1, win 2070, options [nop,nop,TS val 2627791617 ecr 3738754395,nop,nop,sack 1 {1441:2881}], length 0
+16:30:21.600877 IP 17.248.199.128.https > alis-air.61474: Flags [P.], seq 2881:4097, ack 518, win 506, options [nop,nop,TS val 3738754395 ecr 2627791585], length 1216
+16:30:21.600878 IP 17.248.199.128.https > alis-air.61474: Flags [P.], seq 4097:4667, ack 518, win 506, options [nop,nop,TS val 3738754396 ecr 2627791585], length 570
+16:30:21.600909 IP alis-air.61474 > 17.248.199.128.https: Flags [.], ack 2881, win 2025, options [nop,nop,TS val 2627791617 ecr 3738754395], length 0
+16:30:21.600931 IP alis-air.61474 > 17.248.199.128.https: Flags [.], ack 4667, win 1997, options [nop,nop,TS val 2627791617 ecr 3738754396], length 0
+16:30:21.600945 IP alis-air.61474 > 17.248.199.128.https: Flags [.], ack 4667, win 2048, options [nop,nop,TS val 2627791617 ecr 3738754396], length 0
+16:30:21.608506 IP alis-air.61474 > 17.248.199.128.https: Flags [P.], seq 518:611, ack 4667, win 2048, options [nop,nop,TS val 2627791625 ecr 3738754396], length 93
+16:30:21.610448 IP alis-air.61475 > 17.248.207.69.https: Flags [S], seq 1687409257, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 3683441834 ecr 0,sackOK,eol], length 0
+16:30:21.629014 IP 17.248.207.69.https > alis-air.61475: Flags [S.], seq 1394063713, ack 1687409258, win 65160, options [mss 1452,sackOK,TS val 1967688360 ecr 3683441834,nop,wscale 7], length 0
+16:30:21.629149 IP alis-air.61475 > 17.248.207.69.https: Flags [.], ack 1, win 2070, options [nop,nop,TS val 3683441853 ecr 1967688360], length 0
+16:30:21.629865 IP alis-air.61475 > 17.248.207.69.https: Flags [P.], seq 1:518, ack 1, win 2070, options [nop,nop,TS val 3683441853 ecr 1967688360], length 517
+16:30:21.638662 IP 17.248.199.128.https > alis-air.61474: Flags [P.], seq 4667:4718, ack 611, win 506, options [nop,nop,TS val 3738754435 ecr 2627791625], length 51
+16:30:21.638663 IP 17.248.199.128.https > alis-air.61474: Flags [P.], seq 4718:4787, ack 611, win 506, options [nop,nop,TS val 3738754435 ecr 2627791625], length 69
+16:30:21.638664 IP 17.248.199.128.https > alis-air.61474: Flags [.], ack 611, win 506, options [nop,nop,TS val 3738754435 ecr 2627791625], length 0
+16:30:21.638762 IP alis-air.61474 > 17.248.199.128.https: Flags [.], ack 4787, win 2046, options [nop,nop,TS val 2627791656 ecr 3738754435], length 0
+16:30:21.638802 IP alis-air.61474 > 17.248.199.128.https: Flags [.], ack 4787, win 2046, options [nop,nop,TS val 2627791656 ecr 3738754435], length 0
+16:30:21.642401 IP alis-air.61474 > 17.248.199.128.https: Flags [P.], seq 611:1032, ack 4787, win 2048, options [nop,nop,TS val 2627791659 ecr 3738754435], length 421
+16:30:21.642653 IP alis-air.61474 > 17.248.199.128.https: Flags [P.], seq 1032:1070, ack 4787, win 2048, options [nop,nop,TS val 2627791659 ecr 3738754435], length 38
+16:30:21.643100 IP alis-air.61474 > 17.248.199.128.https: Flags [P.], seq 1070:1384, ack 4787, win 2048, options [nop,nop,TS val 2627791659 ecr 3738754435], length 314
+16:30:21.643381 IP alis-air.61474 > 17.248.199.128.https: Flags [P.], seq 1384:1923, ack 4787, win 2048, options [nop,nop,TS val 2627791660 ecr 3738754435], length 539
+16:30:21.643428 IP alis-air.61474 > 17.248.199.128.https: Flags [P.], seq 1923:2235, ack 4787, win 2048, options [nop,nop,TS val 2627791660 ecr 3738754435], length 312
+16:30:21.643489 IP alis-air.61474 > 17.248.199.128.https: Flags [P.], seq 2235:2785, ack 4787, win 2048, options [nop,nop,TS val 2627791660 ecr 3738754435], length 550
+16:30:21.654596 IP 17.248.207.69.https > alis-air.61475: Flags [.], ack 518, win 506, options [nop,nop,TS val 1967688380 ecr 3683441853], length 0
+16:30:21.654598 IP 17.248.207.69.https > alis-air.61475: Flags [.], seq 1:1441, ack 518, win 506, options [nop,nop,TS val 1967688381 ecr 3683441853], length 1440
+16:30:21.654599 IP 17.248.207.69.https > alis-air.61475: Flags [P.], seq 2881:4097, ack 518, win 506, options [nop,nop,TS val 1967688381 ecr 3683441853], length 1216
+16:30:21.654601 IP 17.248.207.69.https > alis-air.61475: Flags [P.], seq 1441:2881, ack 518, win 506, options [nop,nop,TS val 1967688381 ecr 3683441853], length 1440
+16:30:21.654603 IP 17.248.207.69.https > alis-air.61475: Flags [P.], seq 5537:6017, ack 518, win 506, options [nop,nop,TS val 1967688381 ecr 3683441853], length 480
+16:30:21.654605 IP 17.248.207.69.https > alis-air.61475: Flags [.], seq 4097:5537, ack 518, win 506, options [nop,nop,TS val 1967688381 ecr 3683441853], length 1440
+16:30:21.654753 IP alis-air.61475 > 17.248.207.69.https: Flags [.], ack 1441, win 2047, options [nop,nop,TS val 3683441878 ecr 1967688381], length 0
+16:30:21.654805 IP alis-air.61475 > 17.248.207.69.https: Flags [.], ack 1441, win 2047, options [nop,nop,TS val 3683441878 ecr 1967688381,nop,nop,sack 1 {2881:4097}], length 0
+16:30:21.654834 IP alis-air.61475 > 17.248.207.69.https: Flags [.], ack 4097, win 2006, options [nop,nop,TS val 3683441878 ecr 1967688381], length 0
+16:30:21.654859 IP alis-air.61475 > 17.248.207.69.https: Flags [.], ack 4097, win 2048, options [nop,nop,TS val 3683441878 ecr 1967688381,nop,nop,sack 1 {5537:6017}], length 0
+16:30:21.654880 IP alis-air.61475 > 17.248.207.69.https: Flags [.], ack 6017, win 2018, options [nop,nop,TS val 3683441878 ecr 1967688381], length 0
+16:30:21.667577 IP alis-air.61475 > 17.248.207.69.https: Flags [P.], seq 518:582, ack 6017, win 2048, options [nop,nop,TS val 3683441891 ecr 1967688381], length 64
+16:30:21.672125 IP 17.248.199.128.https > alis-air.61474: Flags [.], ack 1032, win 503, options [nop,nop,TS val 3738754469 ecr 2627791659], length 0
+16:30:21.672575 IP 17.248.199.128.https > alis-air.61474: Flags [P.], seq 4787:4825, ack 1032, win 503, options [nop,nop,TS val 3738754469 ecr 2627791659], length 38
+16:30:21.672689 IP alis-air.61474 > 17.248.199.128.https: Flags [.], ack 4825, win 2047, options [nop,nop,TS val 2627791689 ecr 3738754469], length 0
+16:30:21.676670 IP 17.248.199.128.https > alis-air.61474: Flags [.], ack 1384, win 501, options [nop,nop,TS val 3738754473 ecr 2627791659], length 0
+16:30:21.677606 IP alis-air.61475 > 17.248.207.69.https: Flags [P.], seq 582:1878, ack 6017, win 2048, options [nop,nop,TS val 3683441901 ecr 1967688381], length 1296
+16:30:21.677691 IP 17.248.199.128.https > alis-air.61474: Flags [P.], seq 4825:5058, ack 1384, win 501, options [nop,nop,TS val 3738754473 ecr 2627791659], length 233
+16:30:21.677843 IP alis-air.61474 > 17.248.199.128.https: Flags [.], ack 5058, win 2044, options [nop,nop,TS val 2627791695 ecr 3738754473], length 0
+16:30:21.678158 IP alis-air.61475 > 17.248.207.69.https: Flags [P.], seq 1878:2810, ack 6017, win 2048, options [nop,nop,TS val 3683441902 ecr 1967688381], length 932
+16:30:21.678272 IP alis-air.61475 > 17.248.207.69.https: Flags [P.], seq 2810:2841, ack 6017, win 2048, options [nop,nop,TS val 3683441902 ecr 1967688381], length 31
+16:30:21.681939 IP 17.248.199.128.https > alis-air.61474: Flags [.], ack 2235, win 501, options [nop,nop,TS val 3738754478 ecr 2627791660], length 0
+16:30:21.682613 IP 17.248.199.128.https > alis-air.61474: Flags [P.], seq 5058:5291, ack 2785, win 501, options [nop,nop,TS val 3738754479 ecr 2627791660], length 233
+16:30:21.682614 IP 17.248.199.128.https > alis-air.61474: Flags [P.], seq 5291:5525, ack 2785, win 501, options [nop,nop,TS val 3738754479 ecr 2627791660], length 234
+16:30:21.682616 IP 17.248.199.128.https > alis-air.61474: Flags [P.], seq 5525:5758, ack 2785, win 501, options [nop,nop,TS val 3738754479 ecr 2627791660], length 233
+16:30:21.682672 IP alis-air.61474 > 17.248.199.128.https: Flags [.], ack 5758, win 2037, options [nop,nop,TS val 2627791699 ecr 3738754479], length 0
+16:30:21.687101 IP alis-air.61474 > 17.248.199.128.https: Flags [P.], seq 2785:2849, ack 5758, win 2048, options [nop,nop,TS val 2627791704 ecr 3738754479], length 64
+16:30:21.687327 IP alis-air.61474 > 17.248.199.128.https: Flags [P.], seq 2849:2912, ack 5758, win 2048, options [nop,nop,TS val 2627791704 ecr 3738754479], length 63
+16:30:21.687386 IP alis-air.61474 > 17.248.199.128.https: Flags [P.], seq 2912:3259, ack 5758, win 2048, options [nop,nop,TS val 2627791704 ecr 3738754479], length 347
+16:30:21.687482 IP alis-air.61474 > 17.248.199.128.https: Flags [P.], seq 3259:3608, ack 5758, win 2048, options [nop,nop,TS val 2627791704 ecr 3738754479], length 349
+16:30:21.687890 IP 17.248.207.69.https > alis-air.61475: Flags [P.], seq 6017:6288, ack 582, win 506, options [nop,nop,TS val 1967688417 ecr 3683441891], length 271
+16:30:21.687892 IP 17.248.207.69.https > alis-air.61475: Flags [P.], seq 6288:6559, ack 582, win 506, options [nop,nop,TS val 1967688418 ecr 3683441891], length 271
+16:30:21.687893 IP 17.248.207.69.https > alis-air.61475: Flags [P.], seq 6559:6621, ack 582, win 506, options [nop,nop,TS val 1967688418 ecr 3683441891], length 62
+16:30:21.687894 IP 17.248.207.69.https > alis-air.61475: Flags [.], ack 582, win 506, options [nop,nop,TS val 1967688417 ecr 3683441891], length 0
+16:30:21.687990 IP alis-air.61475 > 17.248.207.69.https: Flags [.], ack 6621, win 2038, options [nop,nop,TS val 3683441911 ecr 1967688418], length 0
+16:30:21.688221 IP alis-air.61475 > 17.248.207.69.https: Flags [P.], seq 2841:2872, ack 6621, win 2048, options [nop,nop,TS val 3683441912 ecr 1967688418], length 31
+16:30:21.696120 IP 17.248.207.69.https > alis-air.61475: Flags [.], ack 1878, win 501, options [nop,nop,TS val 1967688428 ecr 3683441901], length 0
+16:30:21.696121 IP 17.248.207.69.https > alis-air.61475: Flags [P.], seq 6621:6652, ack 1878, win 501, options [nop,nop,TS val 1967688428 ecr 3683441901], length 31
+16:30:21.696184 IP alis-air.61475 > 17.248.207.69.https: Flags [.], ack 6652, win 2047, options [nop,nop,TS val 3683441920 ecr 1967688428], length 0
+16:30:21.697400 IP 17.248.207.69.https > alis-air.61475: Flags [P.], seq 6652:6687, ack 2810, win 501, options [nop,nop,TS val 1967688429 ecr 3683441902], length 35
+16:30:21.697436 IP alis-air.61475 > 17.248.207.69.https: Flags [.], ack 6687, win 2047, options [nop,nop,TS val 3683441921 ecr 1967688429], length 0
+16:30:21.709084 IP 17.248.207.69.https > alis-air.61475: Flags [.], ack 2872, win 501, options [nop,nop,TS val 1967688439 ecr 3683441902], length 0
+16:30:21.717271 IP 17.248.199.128.https > alis-air.61474: Flags [.], ack 2912, win 501, options [nop,nop,TS val 3738754514 ecr 2627791704], length 0
+16:30:21.718779 IP 17.248.199.128.https > alis-air.61474: Flags [.], ack 3608, win 501, options [nop,nop,TS val 3738754515 ecr 2627791704], length 0
+16:30:21.718780 IP 17.248.199.128.https > alis-air.61474: Flags [P.], seq 5758:5991, ack 3608, win 501, options [nop,nop,TS val 3738754515 ecr 2627791704], length 233
+16:30:21.718781 IP 17.248.199.128.https > alis-air.61474: Flags [P.], seq 5991:6224, ack 3608, win 501, options [nop,nop,TS val 3738754515 ecr 2627791704], length 233
+16:30:21.718855 IP alis-air.61474 > 17.248.199.128.https: Flags [.], ack 6224, win 2040, options [nop,nop,TS val 2627791736 ecr 3738754515], length 0
+16:30:21.722998 IP 17.248.207.69.https > alis-air.61473: Flags [P.], seq 15630:16246, ack 6473, win 501, options [nop,nop,TS val 407229075 ecr 3710639455], length 616
+16:30:21.723142 IP alis-air.61473 > 17.248.207.69.https: Flags [.], ack 16246, win 2038, options [nop,nop,TS val 3710639635 ecr 407229075], length 0
+16:30:21.762207 IP alis-air.28443 > mynetwork.home.domain: 2747+ A? learn.georgebrown.ca. (38)
+16:30:21.762294 IP alis-air.30527 > mynetwork.home.domain: 42457+ Type65? learn.georgebrown.ca. (38)
+16:30:21.762429 IP alis-air.61178 > ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https: Flags [P.], seq 1102166230:1102166365, ack 718728009, win 10260, options [nop,nop,TS val 858929541 ecr 1905323416], length 135
+16:30:21.762474 IP alis-air.61178 > ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https: Flags [P.], seq 135:181, ack 1, win 10260, options [nop,nop,TS val 858929541 ecr 1905323416], length 46
+16:30:21.770186 IP mynetwork.home.domain > alis-air.28443: 2747 3/0/0 CNAME gbc.brightspace.com., A 99.79.186.175, A 3.97.198.190 (103)
+16:30:21.770188 IP mynetwork.home.domain > alis-air.30527: 42457 1/1/0 CNAME gbc.brightspace.com. (149)
+16:30:21.778868 IP ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https > alis-air.61178: Flags [.], ack 135, win 425, options [nop,nop,TS val 1905353974 ecr 858929541], length 0
+16:30:21.778870 IP ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https > alis-air.61178: Flags [.], ack 181, win 425, options [nop,nop,TS val 1905353975 ecr 858929541], length 0
+16:30:21.778871 IP ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https > alis-air.61178: Flags [P.], seq 1:47, ack 181, win 425, options [nop,nop,TS val 1905353975 ecr 858929541], length 46
+16:30:21.779022 IP alis-air.61178 > ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https: Flags [.], ack 47, win 10259, options [nop,nop,TS val 858929558 ecr 1905353975], length 0
+16:30:21.882599 IP ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https > alis-air.61178: Flags [P.], seq 47:706, ack 181, win 425, options [nop,nop,TS val 1905354011 ecr 858929558], length 659
+16:30:21.882602 IP ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https > alis-air.61178: Flags [P.], seq 706:744, ack 181, win 425, options [nop,nop,TS val 1905354012 ecr 858929558], length 38
+16:30:21.882603 IP ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https > alis-air.61178: Flags [P.], seq 706:744, ack 181, win 425, options [nop,nop,TS val 1905354063 ecr 858929558], length 38
+16:30:21.882770 IP alis-air.61178 > ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https: Flags [.], ack 744, win 10249, options [nop,nop,TS val 858929662 ecr 1905354012], length 0
+16:30:21.882851 IP alis-air.61178 > ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https: Flags [.], ack 744, win 10249, options [nop,nop,TS val 858929662 ecr 1905354063,nop,nop,sack 1 {706:744}], length 0
+16:30:21.884456 IP alis-air.61178 > ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https: Flags [P.], seq 181:223, ack 744, win 10260, options [nop,nop,TS val 858929663 ecr 1905354063], length 42
+16:30:21.898701 IP 17.248.207.69.https > alis-air.61475: Flags [P.], seq 8127:9567, ack 2872, win 501, options [nop,nop,TS val 1967688629 ecr 3683441921], length 1440
+16:30:21.898703 IP 17.248.207.69.https > alis-air.61475: Flags [.], seq 6687:8127, ack 2872, win 501, options [nop,nop,TS val 1967688629 ecr 3683441921], length 1440
+16:30:21.898705 IP 17.248.207.69.https > alis-air.61475: Flags [P.], seq 9567:9683, ack 2872, win 501, options [nop,nop,TS val 1967688629 ecr 3683441921], length 116
+16:30:21.898842 IP alis-air.61475 > 17.248.207.69.https: Flags [.], ack 6687, win 2048, options [nop,nop,TS val 3683442123 ecr 1967688439,nop,nop,sack 1 {8127:9567}], length 0
+16:30:21.898906 IP alis-air.61475 > 17.248.207.69.https: Flags [.], ack 9567, win 2003, options [nop,nop,TS val 3683442123 ecr 1967688629], length 0
+16:30:21.898946 IP alis-air.61475 > 17.248.207.69.https: Flags [.], ack 9683, win 2001, options [nop,nop,TS val 3683442123 ecr 1967688629], length 0
+16:30:21.899034 IP alis-air.61475 > 17.248.207.69.https: Flags [.], ack 9683, win 2048, options [nop,nop,TS val 3683442123 ecr 1967688629], length 0
+16:30:21.932398 IP alis-air.52711 > mynetwork.home.domain: 1533+ A? northamerica-1.object-storage.v.aaplimg.com. (61)
+16:30:21.937597 IP mynetwork.home.domain > alis-air.52711: 1533 1/0/0 A 17.156.106.7 (77)
+16:30:21.937599 IP ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https > alis-air.61178: Flags [.], ack 223, win 425, options [nop,nop,TS val 1905354135 ecr 858929663], length 0
+16:30:21.939150 IP alis-air.61476 > 17.156.106.7.https: Flags [S], seq 2997756667, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 3624478621 ecr 0,sackOK,eol], length 0
+16:30:22.001275 IP 17.156.106.7.https > alis-air.61476: Flags [S.], seq 3424183977, ack 2997756668, win 26844, options [mss 1452,sackOK,TS val 68709490 ecr 3624478621,nop,wscale 9], length 0
+16:30:22.001439 IP alis-air.61476 > 17.156.106.7.https: Flags [.], ack 1, win 45, options [nop,nop,TS val 3624478683 ecr 68709490], length 0
+16:30:22.002154 IP alis-air.61476 > 17.156.106.7.https: Flags [P.], seq 1:518, ack 1, win 45, options [nop,nop,TS val 3624478683 ecr 68709490], length 517
+16:30:22.064321 IP 17.156.106.7.https > alis-air.61476: Flags [.], ack 518, win 55, options [nop,nop,TS val 68709553 ecr 3624478683], length 0
+16:30:22.064324 IP 17.156.106.7.https > alis-air.61476: Flags [.], seq 1:1441, ack 518, win 55, options [nop,nop,TS val 68709554 ecr 3624478683], length 1440
+16:30:22.064326 IP 17.156.106.7.https > alis-air.61476: Flags [P.], seq 1441:2881, ack 518, win 55, options [nop,nop,TS val 68709554 ecr 3624478683], length 1440
+16:30:22.064499 IP alis-air.61476 > 17.156.106.7.https: Flags [.], ack 2881, win 68, options [nop,nop,TS val 3624478746 ecr 68709554], length 0
+16:30:22.125181 IP 17.156.106.7.https > alis-air.61476: Flags [.], seq 2881:4321, ack 518, win 55, options [nop,nop,TS val 68709615 ecr 3624478746], length 1440
+16:30:22.125183 IP 17.156.106.7.https > alis-air.61476: Flags [P.], seq 5761:6306, ack 518, win 55, options [nop,nop,TS val 68709615 ecr 3624478746], length 545
+16:30:22.125185 IP 17.156.106.7.https > alis-air.61476: Flags [P.], seq 4321:5761, ack 518, win 55, options [nop,nop,TS val 68709615 ecr 3624478746], length 1440
+16:30:22.125361 IP alis-air.61476 > 17.156.106.7.https: Flags [.], ack 4321, win 68, options [nop,nop,TS val 3624478807 ecr 68709615], length 0
+16:30:22.125475 IP alis-air.61476 > 17.156.106.7.https: Flags [.], ack 4321, win 68, options [nop,nop,TS val 3624478807 ecr 68709615,nop,nop,sack 1 {5761:6306}], length 0
+16:30:22.125510 IP alis-air.61476 > 17.156.106.7.https: Flags [.], ack 6306, win 46, options [nop,nop,TS val 3624478807 ecr 68709615], length 0
+16:30:22.137502 IP alis-air.61476 > 17.156.106.7.https: Flags [P.], seq 518:598, ack 6306, win 46, options [nop,nop,TS val 3624478819 ecr 68709615], length 80
+16:30:22.143448 IP alis-air.61476 > 17.156.106.7.https: Flags [P.], seq 598:1522, ack 6306, win 46, options [nop,nop,TS val 3624478825 ecr 68709615], length 924
+16:30:22.143959 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 1522:2962, ack 6306, win 46, options [nop,nop,TS val 3624478825 ecr 68709615], length 1440
+16:30:22.198319 IP 17.156.106.7.https > alis-air.61476: Flags [P.], seq 6306:6625, ack 598, win 55, options [nop,nop,TS val 68709688 ecr 3624478819], length 319
+16:30:22.198322 IP 17.156.106.7.https > alis-air.61476: Flags [P.], seq 6625:6944, ack 598, win 55, options [nop,nop,TS val 68709688 ecr 3624478819], length 319
+16:30:22.198495 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 2962:3478, ack 6944, win 45, options [nop,nop,TS val 3624478880 ecr 68709688], length 516
+16:30:22.205581 IP 17.156.106.7.https > alis-air.61476: Flags [.], ack 2962, win 94, options [nop,nop,TS val 68709695 ecr 3624478825], length 0
+16:30:22.205688 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 3478:4918, ack 6944, win 45, options [nop,nop,TS val 3624478887 ecr 68709695], length 1440
+16:30:22.205692 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 4918:6358, ack 6944, win 45, options [nop,nop,TS val 3624478887 ecr 68709695], length 1440
+16:30:22.266607 IP 17.156.106.7.https > alis-air.61476: Flags [.], ack 4918, win 134, options [nop,nop,TS val 68709757 ecr 3624478880], length 0
+16:30:22.266794 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 6358:7798, ack 6944, win 45, options [nop,nop,TS val 3624478948 ecr 68709757], length 1440
+16:30:22.266800 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 7798:9238, ack 6944, win 45, options [nop,nop,TS val 3624478948 ecr 68709757], length 1440
+16:30:22.305861 IP 17.156.106.7.https > alis-air.61476: Flags [.], ack 6358, win 169, options [nop,nop,TS val 68709797 ecr 3624478887], length 0
+16:30:22.306028 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 9238:10678, ack 6944, win 45, options [nop,nop,TS val 3624478988 ecr 68709797], length 1440
+16:30:22.306034 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 10678:12118, ack 6944, win 45, options [nop,nop,TS val 3624478988 ecr 68709797], length 1440
+16:30:22.407865 IP 17.156.106.7.https > alis-air.61476: Flags [.], ack 7798, win 204, options [nop,nop,TS val 68709818 ecr 3624478948], length 0
+16:30:22.407867 IP 17.156.106.7.https > alis-air.61476: Flags [.], ack 9238, win 214, options [nop,nop,TS val 68709819 ecr 3624478948], length 0
+16:30:22.407868 IP 17.156.106.7.https > alis-air.61476: Flags [.], ack 10678, win 214, options [nop,nop,TS val 68709857 ecr 3624478988], length 0
+16:30:22.407869 IP 17.156.106.7.https > alis-air.61476: Flags [.], ack 12118, win 214, options [nop,nop,TS val 68709857 ecr 3624478988], length 0
+16:30:22.408016 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 12118:13558, ack 6944, win 45, options [nop,nop,TS val 3624479090 ecr 68709818], length 1440
+16:30:22.408089 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 13558:14998, ack 6944, win 45, options [nop,nop,TS val 3624479090 ecr 68709819], length 1440
+16:30:22.408094 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 14998:16438, ack 6944, win 45, options [nop,nop,TS val 3624479090 ecr 68709819], length 1440
+16:30:22.408131 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 16438:17878, ack 6944, win 45, options [nop,nop,TS val 3624479090 ecr 68709857], length 1440
+16:30:22.408158 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 17878:19318, ack 6944, win 45, options [nop,nop,TS val 3624479090 ecr 68709857], length 1440
+16:30:22.470493 IP 17.156.106.7.https > alis-air.61476: Flags [.], ack 13558, win 214, options [nop,nop,TS val 68709959 ecr 3624479090], length 0
+16:30:22.470495 IP 17.156.106.7.https > alis-air.61476: Flags [.], ack 14998, win 214, options [nop,nop,TS val 68709960 ecr 3624479090], length 0
+16:30:22.470496 IP 17.156.106.7.https > alis-air.61476: Flags [.], ack 17878, win 214, options [nop,nop,TS val 68709960 ecr 3624479090], length 0
+16:30:22.470497 IP 17.156.106.7.https > alis-air.61476: Flags [.], ack 16438, win 214, options [nop,nop,TS val 68709960 ecr 3624479090], length 0
+16:30:22.470497 IP 17.156.106.7.https > alis-air.61476: Flags [.], ack 19318, win 214, options [nop,nop,TS val 68709960 ecr 3624479090], length 0
+16:30:22.470623 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 19318:20758, ack 6944, win 45, options [nop,nop,TS val 3624479152 ecr 68709959], length 1440
+16:30:22.470695 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 20758:22198, ack 6944, win 45, options [nop,nop,TS val 3624479152 ecr 68709960], length 1440
+16:30:22.470720 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 22198:23638, ack 6944, win 45, options [nop,nop,TS val 3624479152 ecr 68709960], length 1440
+16:30:22.470725 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 23638:25078, ack 6944, win 45, options [nop,nop,TS val 3624479152 ecr 68709960], length 1440
+16:30:22.470730 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 25078:26518, ack 6944, win 45, options [nop,nop,TS val 3624479152 ecr 68709960], length 1440
+16:30:22.520232 IP yyz10s17-in-f10.1e100.net.https > alis-air.51801: quic, protected
+16:30:22.521560 IP alis-air.51801 > yyz10s17-in-f10.1e100.net.https: quic, protected
+16:30:22.521598 IP alis-air.61476 > 17.156.106.7.https: Flags [.], seq 26518:27958, ack 6944, win 45, options [nop,nop,TS val 3624479152 ecr 68709960], length 1440

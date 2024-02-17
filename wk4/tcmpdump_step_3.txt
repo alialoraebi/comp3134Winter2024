@@ -1,0 +1,69 @@
+(base) ali@Alis-Air wk4 % tcpdump -A -i en0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+16:27:50.147026 ARP, Request who-has mynetwork.home tell samsung, length 46
+........T.y(.V................................
+16:27:50.163184 IP alis-air.50696 > mynetwork.home.domain: 9151+ PTR? 1.2.168.192.in-addr.arpa. (42)
+E..Fpv..@......@.......5.2..#............1.2.168.192.in-addr.arpa.....
+16:27:50.240815 IP mynetwork.home.domain > alis-air.50696: 9151* 1/0/0 PTR mynetwork.home. (70)
+E..b.E@.@.
+........@.5...N..#............1.2.168.192.in-addr.arpa................. mynetwork.home.
+16:27:50.242884 IP alis-air.49178 > mynetwork.home.domain: 52823+ PTR? 18.2.168.192.in-addr.arpa. (43)
+E..G....@.&....@.......5.3e..W...........18.2.168.192.in-addr.arpa.....
+16:27:50.245334 IP mynetwork.home.domain > alis-air.49178: 52823* 1/0/0 PTR Samsung. (64)
+E..\.K@.@.
+........@.5...H ..W...........18.2.168.192.in-addr.arpa................ .Samsung.
+16:27:50.297554 IP alis-air.61178 > ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https: Flags [.], ack 718727266, win 10260, length 0
+E..(t...@.y....@.a......A...*..bP.(..!..
+16:27:50.348454 IP alis-air.51229 > mynetwork.home.domain: 18259+ PTR? 64.2.168.192.in-addr.arpa. (43)
+E..G.)..@.8....@.......5.3..GS...........64.2.168.192.in-addr.arpa.....
+16:27:50.399067 IP mynetwork.home.domain > alis-air.51229: 18259* 1/0/0 PTR Alis-Air. (65)
+E..].n@.@.
+........@.5...I..GS...........64.2.168.192.in-addr.arpa................
+.Alis-Air.
+16:27:50.399069 IP ec2-3-97-198-190.ca-central-1.compute.amazonaws.com.https > alis-air.61178: Flags [.], ack 1, win 425, options [nop,nop,TS val 1905202579 ecr 858687629], length 0
+E..4..@...e..a.....@....*..bA..............
+q...3...
+16:27:51.060511 IP alis-air.61125 > google-nest-mini.8009: Flags [P.], seq 2555301949:2555302059, ack 3768244993, win 2048, options [nop,nop,TS val 1840908149 ecr 3316254939], length 110
+E.....@.@......@.......I.N.=........}......
+m..u........i..).HK.>.\.E....D..        8.0.j.2..Wy...,...........n...`.._.-j...IW.O...y+..o....%...5..:........./U...B.B...0
+16:27:51.088461 IP google-nest-mini.8009 > alis-air.61125: Flags [P.], seq 1:111, ack 110, win 503, options [nop,nop,TS val 3316259963 ecr 1840908149], length 110
+E.....@.@..........@.I.......N......e......
+...{m..u....i...y1.._...h.b. ../....D....8....V.&H...-.R
+@..hEe.n.h..;....v.M.*.>.E*..[
+.k2..^f........P.+0...z..jn..
+16:27:51.088646 IP alis-air.61125 > google-nest-mini.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 1840908177 ecr 3316259963], length 0
+E..4..@.@..$...@.......I.N.....o....^......
+m......{
+16:27:51.108683 IP alis-air.49436 > mynetwork.home.domain: 36932+ PTR? 15.2.168.192.in-addr.arpa. (43)
+E..G....@..d...@.......5.3...D...........15.2.168.192.in-addr.arpa.....
+16:27:51.110614 IP mynetwork.home.domain > alis-air.49436: 36932* 1/0/0 PTR Google-Nest-Mini. (73)
+E..e..@.@.      ........@.5...Q...D...........15.2.168.192.in-addr.arpa..................Google-Nest-Mini.
+16:27:51.732437 IP alis-air.61128 > google-home-mini.8009: Flags [P.], seq 2488560394:2488560504, ack 1324493421, win 2048, options [nop,nop,TS val 1973112686 ecr 5060937], length 110
+E.....@.@......@.......I.Tk
+N.*m.....,.....
+u.On.M9I....i*..U.....4.........O..m..%NLM.....,...5..<t.....~.PO...~ ..r..Pj.......+...{<.W.Z....{.fC..p.%0.Y..U.....
+16:27:51.740478 IP google-home-mini.8009 > alis-air.61128: Flags [P.], seq 1:111, ack 110, win 278, options [nop,nop,TS val 5061438 ecr 1973112686], length 110
+E.....@.@..,.......@.I..N.*m.Tkx.....b.....
+.M;>u.On....i.....T@i....../.(.^m.d.@q.%.`.'....s,.Z.z.b..R...T...@M....J.$q-..hP.....j.......!:...8>..$(q.6....h..PF8
+16:27:51.740630 IP alis-air.61128 > google-home-mini.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 1973112694 ecr 5061438], length 0
+E..4..@.@..&...@.......I.TkxN.*.....`......
+u.Ov.M;>
+16:27:51.820446 IP alis-air.51009 > mynetwork.home.domain: 19904+ PTR? 13.2.168.192.in-addr.arpa. (43)
+E..G....@..K...@.....A.5.3..M............13.2.168.192.in-addr.arpa.....
+16:27:51.943987 IP mynetwork.home.domain > alis-air.51009: 19904* 1/0/0 PTR Google-Home-Mini. (73)
+E..e..@.@..........@.5.A.QR.M............13.2.168.192.in-addr.arpa..................Google-Home-Mini.
+16:27:52.092670 ARP, Request who-has mynetwork.home tell samsung, length 46
+........T.y(.V................................
+16:27:52.214395 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 3967723560:3967723614, ack 3384767600, win 8, options [nop,nop,TS val 2535054657 ecr 3649535276], length 54
+E..j..@.8.bk.......@.....~.(..tp...........
+...A..},....1.;.R.E....BAh.6Es#....MC.........b...I.4.....c.}.
+16:27:52.214632 IP alis-air.61131 > 162.159.130.234.https: Flags [.], ack 54, win 8271, options [nop,nop,TS val 3649537805 ecr 2535054657], length 0
+E..4..@.@.RR...@..........tp.~.^.. O.v.....
+.......A
+^C16:27:52.246886 IP6 alis-macbook-air.local.mdns > fe80::d6f5:47ff:fe02:a178.mdns: 0 PTR (QU)? _googlecast._tcp.local. (40)
+`....0...............i............G....x.....0uM............._googlecast._tcp.local.....
+
+23 packets captured
+62 packets received by filter
+0 packets dropped by kernel

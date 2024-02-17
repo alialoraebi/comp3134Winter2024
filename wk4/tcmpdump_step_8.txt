@@ -1,0 +1,27 @@
+(base) ali@Alis-Air wk4 % tcpdump -n -i en0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+16:31:35.020242 IP 192.168.2.232.46083 > 192.168.2.255.10009: UDP, length 100
+16:31:35.123893 ARP, Request who-has 192.168.2.1 tell 192.168.2.18, length 46
+16:31:35.124105 IP 192.168.2.17.47378 > 192.168.2.255.15600: UDP, length 35
+16:31:36.864283 IP 162.159.130.234.443 > 192.168.2.64.61131: Flags [P.], seq 3967742633:3967742767, ack 3384767924, win 8, options [nop,nop,TS val 2535279281 ecr 3649760349], length 134
+16:31:36.864495 IP 192.168.2.64.61131 > 162.159.130.234.443: Flags [.], ack 134, win 8270, options [nop,nop,TS val 3649762455 ecr 2535279281], length 0
+16:31:37.068218 ARP, Request who-has 192.168.2.1 tell 192.168.2.18, length 46
+16:31:37.221955 IP 162.159.130.234.443 > 192.168.2.64.61131: Flags [P.], seq 134:254, ack 1, win 8, options [nop,nop,TS val 2535279677 ecr 3649762455], length 120
+16:31:37.222158 IP 192.168.2.64.61131 > 162.159.130.234.443: Flags [.], ack 254, win 8270, options [nop,nop,TS val 3649762813 ecr 2535279677], length 0
+16:31:38.194691 IP 192.168.2.16.52024 > 255.255.255.255.6667: UDP, length 172
+16:31:38.313832 IP 192.168.2.64.61128 > 192.168.2.13.8009: Flags [P.], seq 2488565344:2488565454, ack 1324498371, win 2048, options [nop,nop,TS val 1973339268 ecr 5083596], length 110
+16:31:38.433342 IP 192.168.2.13.8009 > 192.168.2.64.61128: Flags [P.], seq 1:111, ack 110, win 278, options [nop,nop,TS val 5084108 ecr 1973339268], length 110
+16:31:38.433577 IP 192.168.2.64.61128 > 192.168.2.13.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 1973339387 ecr 5084108], length 0
+16:31:38.501483 IP 192.168.2.81.5353 > 224.0.0.251.5353: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.2.81, (Cache flush) AAAA fe80::3e31:78ff:fe48:ae7 (246)
+16:31:38.502571 IP6 fe80::3e31:78ff:fe48:ae7.5353 > ff02::fb.5353: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.2.81, (Cache flush) AAAA fe80::3e31:78ff:fe48:ae7 (246)
+16:31:38.713783 IP 192.168.2.64.61125 > 192.168.2.15.8009: Flags [P.], seq 2555306899:2555307009, ack 3768249943, win 2048, options [nop,nop,TS val 1841135803 ecr 3316482591], length 110
+16:31:38.820726 IP 192.168.2.15.8009 > 192.168.2.64.61125: Flags [P.], seq 1:111, ack 110, win 503, options [nop,nop,TS val 3316487624 ecr 1841135803], length 110
+16:31:38.820951 IP 192.168.2.64.61125 > 192.168.2.15.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 1841135910 ecr 3316487624], length 0
+16:31:39.013430 IP 192.168.2.15.9487 > 255.255.255.255.9478: UDP, length 40
+16:31:39.013875 ARP, Request who-has 192.168.2.1 tell 192.168.2.18, length 46
+^C
+19 packets captured
+19 packets received by filter
+0 packets dropped by kernel
+(base) ali@Alis-Air wk4 % 

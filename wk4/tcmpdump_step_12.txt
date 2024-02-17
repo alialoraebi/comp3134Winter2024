@@ -1,0 +1,7 @@
+(base) ali@Alis-Air wk4 % tcpdump -i en0 dst 50.166.66.139
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+^C
+0 packets captured
+27 packets received by filter
+0 packets dropped by kernel

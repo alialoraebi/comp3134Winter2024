@@ -1,0 +1,23 @@
+(base) ali@Alis-Air wk4 % tcpdump -i en0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+16:32:13.831017 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 3967744769:3967744896, ack 3384767924, win 8, options [nop,nop,TS val 2535315876 ecr 3649795885], length 127
+16:32:13.831019 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 0:127, ack 1, win 8, options [nop,nop,TS val 2535316205 ecr 3649795885], length 127
+16:32:13.831277 IP alis-air.61131 > 162.159.130.234.https: Flags [.], ack 127, win 8270, options [nop,nop,TS val 3649799422 ecr 2535315876,nop,nop,sack 1 {0:127}], length 0
+16:32:13.844345 IP alis-air.61128 > google-home-mini.8009: Flags [P.], seq 2488566114:2488566224, ack 1324499141, win 2048, options [nop,nop,TS val 1973374798 ecr 5087149], length 110
+16:32:13.868257 IP google-home-mini.8009 > alis-air.61128: Flags [P.], seq 1:111, ack 110, win 278, options [nop,nop,TS val 5087652 ecr 1973374798], length 110
+16:32:13.868437 IP alis-air.61128 > google-home-mini.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 1973374822 ecr 5087652], length 0
+16:32:14.233729 IP alis-air.61125 > google-nest-mini.8009: Flags [P.], seq 2555307669:2555307779, ack 3768250713, win 2048, options [nop,nop,TS val 1841171322 ecr 3316518108], length 110
+16:32:14.262932 IP google-nest-mini.8009 > alis-air.61125: Flags [P.], seq 1:111, ack 110, win 503, options [nop,nop,TS val 3316523141 ecr 1841171322], length 110
+16:32:14.263139 IP alis-air.61125 > google-nest-mini.8009: Flags [.], ack 111, win 2046, options [nop,nop,TS val 1841171352 ecr 3316523141], length 0
+16:32:14.512023 IP alis-air.61131 > 162.159.130.234.https: Flags [P.], seq 1:55, ack 127, win 8272, options [nop,nop,TS val 3649800103 ecr 2535315876], length 54
+16:32:14.656379 IP 162.159.130.234.https > alis-air.61131: Flags [.], ack 55, win 8, options [nop,nop,TS val 2535317102 ecr 3649800103], length 0
+16:32:14.706686 IP 162.159.130.234.https > alis-air.61131: Flags [P.], seq 127:161, ack 55, win 8, options [nop,nop,TS val 2535317161 ecr 3649800103], length 34
+16:32:14.706780 IP alis-air.61131 > 162.159.130.234.https: Flags [.], ack 161, win 8271, options [nop,nop,TS val 3649800298 ecr 2535317161], length 0
+16:32:15.616311 IP alis-air.61124 > 20.127.250.238.https: Flags [.], ack 3387383411, win 2048, length 0
+16:32:15.679887 IP 20.127.250.238.https > alis-air.61124: Flags [.], ack 1, win 59, options [nop,nop,TS val 1554197874 ecr 2644453386], length 0
+^C
+15 packets captured
+53 packets received by filter
+0 packets dropped by kernel
+(base) ali@Alis-Air wk4 % 

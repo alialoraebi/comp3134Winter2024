@@ -1,0 +1,27 @@
+(base) ali@Alis-Air wk4 % tcpdump -i en0 -c 20 
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on en0, link-type EN10MB (Ethernet), snapshot length 524288 bytes
+16:24:25.651909 IP dragon.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? _oculusal_sp._tcp.local. (41)
+16:24:25.651917 IP dragon.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? _oculusal_sp_v2._tcp.local. (44)
+16:24:25.651918 IP dragon.mdns > mdns.mcast.net.mdns: 0*- [0q] 1/0/4 PTR Ali's PC::Dragon._oculusal_sp._tcp.local. (245)
+16:24:25.652328 IP dragon.mdns > mdns.mcast.net.mdns: 0*- [0q] 1/0/4 PTR Ali's PC::Dragon._oculusal_sp_v2._tcp.local. (254)
+16:24:25.735996 IP alis-air.62026 > mynetwork.home.domain: 21255+ PTR? 219.2.168.192.in-addr.arpa. (44)
+16:24:25.774620 IP mynetwork.home.domain > alis-air.62026: 21255* 1/0/0 PTR Dragon. (64)
+16:24:25.879186 IP alis-air.64046 > mynetwork.home.domain: 35451+ PTR? 64.2.168.192.in-addr.arpa. (43)
+16:24:25.923022 IP mynetwork.home.domain > alis-air.64046: 35451* 1/0/0 PTR Alis-Air. (65)
+16:24:25.924363 IP alis-air.55979 > mynetwork.home.domain: 9631+ PTR? 1.2.168.192.in-addr.arpa. (42)
+16:24:25.926173 IP mynetwork.home.domain > alis-air.55979: 9631* 1/0/0 PTR mynetwork.home. (70)
+16:24:26.328257 IP alis-air.62540 > mynetwork.home.domain: 62124+ A? github.com. (28)
+16:24:26.435109 IP mynetwork.home.domain > alis-air.62540: 62124 1/0/0 A 140.82.113.3 (44)
+16:24:26.436282 IP alis-air.61405 > lb-140-82-113-3-iad.github.com.https: Flags [S], seq 989240752, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1796853300 ecr 0,sackOK,eol], length 0
+16:24:26.469405 IP lb-140-82-113-3-iad.github.com.https > alis-air.61405: Flags [S.], seq 1443286102, ack 989240753, win 65535, options [mss 1436,sackOK,TS val 1732020255 ecr 1796853300,nop,wscale 10], length 0
+16:24:26.469563 IP alis-air.61405 > lb-140-82-113-3-iad.github.com.https: Flags [.], ack 1, win 2069, options [nop,nop,TS val 1796853333 ecr 1732020255], length 0
+16:24:26.470104 IP alis-air.61405 > lb-140-82-113-3-iad.github.com.https: Flags [P.], seq 1:321, ack 1, win 2069, options [nop,nop,TS val 1796853333 ecr 1732020255], length 320
+16:24:26.504612 IP lb-140-82-113-3-iad.github.com.https > alis-air.61405: Flags [.], seq 1:1425, ack 321, win 66, options [nop,nop,TS val 1732020289 ecr 1796853333], length 1424
+16:24:26.504614 IP lb-140-82-113-3-iad.github.com.https > alis-air.61405: Flags [P.], seq 1425:2815, ack 321, win 66, options [nop,nop,TS val 1732020289 ecr 1796853333], length 1390
+16:24:26.504730 IP alis-air.61405 > lb-140-82-113-3-iad.github.com.https: Flags [.], ack 2815, win 2025, options [nop,nop,TS val 1796853368 ecr 1732020289], length 0
+16:24:26.511558 IP alis-air.61405 > lb-140-82-113-3-iad.github.com.https: Flags [P.], seq 321:327, ack 2815, win 2048, options [nop,nop,TS val 1796853375 ecr 1732020289], length 6
+20 packets captured
+33 packets received by filter
+0 packets dropped by kernel
+(base) ali@Alis-Air wk4 % 
