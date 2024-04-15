@@ -1,0 +1,8 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# FILENAME="all_traffic_$(date '+%Y%m%d_%H%M').pcap"
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# sudo tcpdump -i any -w $FILENAME
+tcpdump: data link type LINUX_SLL2
+tcpdump: listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+^C46 packets captured
+47 packets received by filter
+0 packets dropped by kernel
+root@ubuntu-s-1vcpu-1gb-tor1-01:~#
